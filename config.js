@@ -1,7 +1,7 @@
-const ownerNumber = ["557187645787@s.whatsapp.net"] 
+const ownerNumber = ["50498798682@s.whatsapp.net"] 
 // mude somente o numero e não tire o @s.whatsapp.net
 
-const OriginalOwner = '557187645787' 
+const OriginalOwner = '50498798682' 
 // mude para seu numero
 
 const gimagenotregister = true
@@ -11,19 +11,19 @@ const sgooglenotregister = true
 // quando não há comando registrado o bot procura uma pesquisa no google
 
 const msgwelcomeimg = (numero, groupname) => {
-    return `Seja bem-vindo ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
+    return `Bienvenido ${numero}\n\n ${prefix}Diviértete`
 }
 //Texto de boas vindas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const byemsgimg = (numero, groupname) => {
-    return `Adeus ${numero}`
+    return `Adiós ${numero} fantasmon bueno para nada`
 }
 //Texto de despedidas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const menumsgimg = (numero, groupname) => {
-    return `Seja bem-vindo ${numero}\n\nAo menu do Brizas-bot`
+    return `Hola ${numero}\n\n no hagas spam`
 }
 //Texto no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -45,7 +45,7 @@ const blockedcmdmsg = '*🚫Este comando esta bloqueado contate o propitetário 
 
 // MENSAGENS DE BAN
 
-const banmsgtype = '*Corra membro comum, o ban estar próximo*'
+const banmsgtype = '*Eliminado...*'
 // mensagem de ban no anti tipos de mensagem
 
 const adminmsgtype = '*Tu é adm ent n vou te banir por mandar um tipo de mensagem proibida*'
@@ -54,13 +54,13 @@ const adminmsgtype = '*Tu é adm ent n vou te banir por mandar um tipo de mensag
 const banmsgporn = 'Hmmm pornozinho com antiporn ativado, ja sabe né...'
 // mensagem de ban no antiporn
 
-const adminmsgporn = '*Tu é adm ent n vou te banir por mandar porn*'
+const adminmsgporn = '*Se detectó contenido pornográfico, pero sos admin*'
 // mensagem de quando adm manda porn com antiporn ativado
 
-const banmsglink = 'Corra Membro comum, O ban está próximo...'
+const banmsglink = 'Eliminado'
 // mensagem de ban no antilink
 
-const adminmsglink = 'Isso é um link amigo... ah é tu é adm ent pode kkkk 🙃'
+const adminmsglink = 'Se a detectado un link, pero sos admin'
 // mensagem de quando adm manda link
 
 const adminmsgpalavra = 'isso esta na lista das palavras proibidas pelo bot'
@@ -113,18 +113,18 @@ const numbotfeio = 'senhora sua mãe 😡'
 
 // MENSAGENS DE EXCLUSIVIDADE
 let mess = {
-    wait: '⌛ Aguarde um pouco... ⌛',
+    wait: '⌛Aguarde un poco...⌛',
     success: '✔️ Sucesso! ✔️',
     error: {
         stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
         Iv: '❌ Link inválido ❌'
     },
     only: {
-        group: '❌ Este comando só pode ser usado em grupos! ❌',
-        ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
-        ownerB: '❌ Este comando só pode ser usado pelo número proprietário! ❌',
-        admin: '❌ SILÊNCIO MEMBRO COMUM VC N TEM MORAL PRA USAR ESSE COMANDO ❌',
-        Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
+        group: 'COMANDO DISPONIBLE SOLO EN GRUPOS',
+        ownerG: 'COMANDO DISPONIBLE SOLO PARA EL CREADOR DEL BOT',
+        ownerB: 'COMANDO DISPONIBLE SOLO PARA EL CREADOR DEL BOT',
+        admin: 'COMANDO DENEGADO ❝✬SOLO OBEDECESCO AL ADMIN✬❞ comando disponible para ti !phlogo putito|hub',
+        Badmin: '❝✬SI QUIERE HACER USO DEL BOT, DELE ADMIN✬❞'
     }
 }
 
@@ -132,9 +132,9 @@ let mess = {
 
 const vcard = 'BEGIN:VCARD\n' 
 + 'VERSION:3.0\n' 
-+ 'FN:Meu criador^~^\n' 
++ 'FN:🇭🇳EDAR504🇭🇳\n' 
 + 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=557187645787:+55 71 8764-5787\n' 
++ 'TEL;type=CELL;type=VOICE;waid=50498798682:+504 9879-8682\n' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde
