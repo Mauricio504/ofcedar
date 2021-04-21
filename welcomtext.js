@@ -1,4 +1,4 @@
-const welcome = (number, groupname) => {
+const welcome = (number, groupname, groupdescription) => {
     return `*_🌊Hola🍭 @${number} Te damos la Bienvenida a ${groupname} Espero y sea de su agrado🧘🏻‍♂️ ,contamos con su apoyo🔥 recuerda seguir las reglas y mantener una formalidad respetuosa ❝✬ՏOᒪO🏆ᗩᑕTIᐯOՏ✬❞_*`
 }
 exports.welcome = welcome
