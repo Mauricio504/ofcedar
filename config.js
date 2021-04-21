@@ -11,13 +11,13 @@ const sgooglenotregister = true
 // quando não há comando registrado o bot procura uma pesquisa no google
 
 const msgwelcomeimg = (numero, groupname) => {
-    return `Bienvenido ${numero}\n\n ${prefix}Diviértete`
+    return `Bienvenida ${numero}\n\n ${prefix}lee la descripcion`
 }
 //Texto de boas vindas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const byemsgimg = (numero, groupname) => {
-    return `Adiós ${numero} fantasmon bueno para nada`
+    return `Adios ${numero} fantasmon bueno para nada`
 }
 //Texto de despedidas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -89,7 +89,7 @@ const textmsgnig = 'Konbanwa Onii-chan, espero que tenha tido um bom dia ☺️'
 
 // MENSAGENS DE ERRO
 
-const msgerr = 'Deu erro, tente novamente :/'
+const msgerr = '_🔚comando no registrado, (realizando la busqueda con los servidores de *Google*_'
 // mensagem de erro
 
 const notregister = `*Comando não registrado, escreva ${prefix}menu para ver a lista de comandos*`
@@ -123,7 +123,7 @@ let mess = {
         group: 'COMANDO DISPONIBLE SOLO EN GRUPOS',
         ownerG: 'COMANDO DISPONIBLE SOLO PARA EL CREADOR DEL BOT',
         ownerB: 'COMANDO DISPONIBLE SOLO PARA EL CREADOR DEL BOT',
-        admin: 'COMANDO DENEGADO ❝✬SOLO OBEDECESCO AL ADMIN✬❞ comando disponible para ti !phlogo putito|hub',
+        admin: '👋Lo siento, solo obedezco al admin ❝✬comando disponible para ti !phlogo Edar|hub',
         Badmin: '❝✬SI QUIERE HACER USO DEL BOT, DELE ADMIN✬❞'
     }
 }
